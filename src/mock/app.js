@@ -51,8 +51,10 @@ export default(Mock, qs) => {
           }, {
             name: '脚本管理',
             path: '/manage/scripts'
+          }, {
+            name: 'webscoket',
+            path:'/webscoket/test'
           }
-
         ]
       }
     ],

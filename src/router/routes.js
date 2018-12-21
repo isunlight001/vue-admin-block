@@ -47,6 +47,12 @@ export default[
         component: resolve => {
           require(['@/views/manage/Scripts'], resolve)
         }
+      }, {
+        path: '/webscoket/test',
+        name: 'webscokettest',
+        component: resolve => {
+          require(['@/views/webscoket/Test'], resolve)
+        }
       }
     ]
   }, {
