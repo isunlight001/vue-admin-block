@@ -4,7 +4,7 @@
     <h1>{{ res }}</h1>
   </div>
 </template>
- 
+ <!--此页面的后台在项目https://github.com/isunlight001/mywebdemo中，如有需要自己可下下来运行下 -->
 <script>
 export default {
   name: 'ws',
