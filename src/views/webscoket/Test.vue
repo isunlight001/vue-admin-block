@@ -11,7 +11,7 @@ export default {
   data () {
     return {
       msg: '',
-      res: {},
+      res: '',
       lot_id: '000',  
       ws: null,
       wsurl: 'ws://localhost:8080/websocketdemo/websocket'
@@ -48,7 +48,7 @@ export default {
     getmessage (e) {
       // this.res = JSON.parse(e.data)
       this.res = e.data
-      console.log(res)
+      console.log(this.res)
     },
     sendmessage (content) {
       this.ws.send(content)
