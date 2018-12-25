@@ -120,7 +120,16 @@ export default {
         }, {
         title: '创建者',
         key: 'script_manage_id',
-        minWidth: 100
+        minWidth: 100,//在列上添加超链接
+        render: (h, params) => {
+           let url = 'http://www.baidu.com?id=' + params.row.id
+           return h('a', {
+                    attrs: {
+                         href: url,
+                         target: '_black'
+                     }
+           }, params.row.script_manage_id)
+        }
       }, {
         title: '创建时间',
         key: 'created_time',
