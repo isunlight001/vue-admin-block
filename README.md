@@ -1,17 +1,17 @@
-**Demo:** <http://vab.cssue.com/>
+# Demo: <http://vab.cssue.com/>
 
-> -   Username: admin
-> -   Password: wasd@007
+> - Username: admin
+> - Password: wasd@007
 
 ## 特性
 
-1.  基于 Vue.js 的企业级中后台开源项目
-2.  基于 Vue 官方命令行工具 Vue CLI 2 脚手架搭建
-3.  使用 Vue 官方核心插件 Vue Router, Vuex
-4.  使用 Vue 官方建议的 Axios 插件进行 HTTP 操作
-5.  采用时下热门的 UI 组件库 iView
-6.  通过 Mock.js 插件拦截 Ajax 请求并生成随机数据
-7.  使用 cssnext 预处理 编写样式
+1. 基于 Vue.js 的企业级中后台开源项目
+2. 基于 Vue 官方命令行工具 Vue CLI 2 脚手架搭建
+3. 使用 Vue 官方核心插件 Vue Router, Vuex
+4. 使用 Vue 官方建议的 Axios 插件进行 HTTP 操作
+5. 采用时下热门的 UI 组件库 iView
+6. 通过 Mock.js 插件拦截 Ajax 请求并生成随机数据
+7. 使用 cssnext 预处理 编写样式
 
 ## 开发构建
 
@@ -134,7 +134,7 @@ export default(Mock, qs) => {
 
 \* **注意**
 
-> -   添加临时菜单需要重新登录才能显示新菜单
+> - 添加临时菜单需要重新登录才能显示新菜单
 
 Step 4, 新建接口管理文件 services/test.js
 
@@ -174,7 +174,7 @@ export default {mock}
 
 \* **提示**
 
-> -   如需使用 vuex 存储状态, 请阅读 views/common/partials/Sidebar.vue 组件和 store 目录源码
+> - 如需使用 vuex 存储状态, 请阅读 views/common/partials/Sidebar.vue 组件和 store 目录源码
 
 ### 快速开始
 
